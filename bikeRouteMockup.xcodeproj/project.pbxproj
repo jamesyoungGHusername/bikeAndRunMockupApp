@@ -16,6 +16,7 @@
 		C4374AF828CBFE0600E63388 /* bikeRouteMockupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4374AF728CBFE0600E63388 /* bikeRouteMockupTests.swift */; };
 		C4374B0228CBFE0600E63388 /* bikeRouteMockupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4374B0128CBFE0600E63388 /* bikeRouteMockupUITests.swift */; };
 		C4374B0428CBFE0600E63388 /* bikeRouteMockupUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4374B0328CBFE0600E63388 /* bikeRouteMockupUITestsLaunchTests.swift */; };
+		C4374B1328CBFEB400E63388 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4374B1228CBFEB400E63388 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		C4374AFD28CBFE0600E63388 /* bikeRouteMockupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bikeRouteMockupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4374B0128CBFE0600E63388 /* bikeRouteMockupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bikeRouteMockupUITests.swift; sourceTree = "<group>"; };
 		C4374B0328CBFE0600E63388 /* bikeRouteMockupUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bikeRouteMockupUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C4374B1028CBFEB400E63388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C4374B1228CBFEB400E63388 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4374B1328CBFEB400E63388 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +86,7 @@
 				C4374AF628CBFE0600E63388 /* bikeRouteMockupTests */,
 				C4374B0028CBFE0600E63388 /* bikeRouteMockupUITests */,
 				C4374ADF28CBFE0300E63388 /* Products */,
+				C4374B1128CBFEB400E63388 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +103,7 @@
 		C4374AE028CBFE0300E63388 /* bikeRouteMockup */ = {
 			isa = PBXGroup;
 			children = (
+				C4374B1028CBFEB400E63388 /* Info.plist */,
 				C4374AE128CBFE0300E63388 /* bikeRouteMockupApp.swift */,
 				C4374AE328CBFE0300E63388 /* ContentView.swift */,
 				C4374AE528CBFE0600E63388 /* Assets.xcassets */,
@@ -131,6 +137,14 @@
 				C4374B0328CBFE0600E63388 /* bikeRouteMockupUITestsLaunchTests.swift */,
 			);
 			path = bikeRouteMockupUITests;
+			sourceTree = "<group>";
+		};
+		C4374B1128CBFEB400E63388 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4374B1228CBFEB400E63388 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -428,6 +442,7 @@
 				DEVELOPMENT_TEAM = XCBTW98MC4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = bikeRouteMockup/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -457,6 +472,7 @@
 				DEVELOPMENT_TEAM = XCBTW98MC4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = bikeRouteMockup/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
