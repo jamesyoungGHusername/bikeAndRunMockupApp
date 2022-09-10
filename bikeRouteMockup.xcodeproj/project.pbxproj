@@ -17,6 +17,7 @@
 		C4374B0228CBFE0600E63388 /* bikeRouteMockupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4374B0128CBFE0600E63388 /* bikeRouteMockupUITests.swift */; };
 		C4374B0428CBFE0600E63388 /* bikeRouteMockupUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4374B0328CBFE0600E63388 /* bikeRouteMockupUITestsLaunchTests.swift */; };
 		C4374B1328CBFEB400E63388 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4374B1228CBFEB400E63388 /* MapKit.framework */; };
+		C4374B1528CC050500E63388 /* PointOfInterest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4374B1428CC050500E63388 /* PointOfInterest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		C4374B0328CBFE0600E63388 /* bikeRouteMockupUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bikeRouteMockupUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C4374B1028CBFEB400E63388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		C4374B1228CBFEB400E63388 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C4374B1428CC050500E63388 /* PointOfInterest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointOfInterest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				C4374AEA28CBFE0600E63388 /* Persistence.swift */,
 				C4374AEC28CBFE0600E63388 /* bikeRouteMockup.xcdatamodeld */,
 				C4374AE728CBFE0600E63388 /* Preview Content */,
+				C4374B1428CC050500E63388 /* PointOfInterest.swift */,
 			);
 			path = bikeRouteMockup;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 			files = (
 				C4374AEB28CBFE0600E63388 /* Persistence.swift in Sources */,
 				C4374AEE28CBFE0600E63388 /* bikeRouteMockup.xcdatamodeld in Sources */,
+				C4374B1528CC050500E63388 /* PointOfInterest.swift in Sources */,
 				C4374AE428CBFE0300E63388 /* ContentView.swift in Sources */,
 				C4374AE228CBFE0300E63388 /* bikeRouteMockupApp.swift in Sources */,
 			);
@@ -443,6 +447,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = bikeRouteMockup/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -473,6 +479,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = bikeRouteMockup/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

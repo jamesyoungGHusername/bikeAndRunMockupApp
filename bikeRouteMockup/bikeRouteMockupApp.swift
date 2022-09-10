@@ -6,6 +6,17 @@
 //
 
 import SwiftUI
+import UIKit
+import CoreLocation
+
+// no changes in your AppDelegate class
+class AppDelegate: NSObject, UIApplicationDelegate {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+        let locationManager = CLLocationManager()
+        locationManager.requestAlwaysAuthorization()
+        return true
+    }
+}
 
 @main
 struct bikeRouteMockupApp: App {
